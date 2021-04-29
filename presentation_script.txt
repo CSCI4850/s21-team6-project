@@ -11,4 +11,43 @@ PROJECT OUTLINE=======================================
 
 Eric, George, Matthew, ~2.5 minutes each
 
+Brooks:		brief history and the rules of Go
+				-chinese game that has been played for thousands of years
+				-the typical game board is 19x19, which means there are 10^360 possible moves
+				-game goal and basic rules
+				
+George:		approach
+				-since there are so many possible moves, you cant have it predict all possible outcomes
+				-we instead ran it through 8600 previous games played by high level users
+				-
+			training
+				-
+				-
+				-
+			driver
+				-
+				-
+				-
 
+Matthew:	convolution
+				-
+				-
+				-
+			training
+				-
+				-
+				-
+
+Eric:		driver function
+				-
+				-
+				-
+			training attempts
+				-
+				-
+				-
+
+Utah:		conclusion, final accomplishments and thoughts
+				-could have done better if we had more time
+				-looked through other architechtures and theyre very similar, not sure why it wouldn't do better
+				-
