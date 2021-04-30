@@ -1,3 +1,3 @@
 # Team 6 - Perceptron
 
-![Alt Text](demo_gif.gif)
+![Alt Text](ezgif-6-85ba56436fb9.gif)
