@@ -1,1 +1,3 @@
-# s21-team6-project
+# Team 6 - Perceptron
+
+![Alt Text](demo_gif.gif)
