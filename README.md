@@ -230,6 +230,8 @@ plt.show()
 ```
 ![image](https://user-images.githubusercontent.com/74555083/116799267-88776900-aabd-11eb-833b-43e4417c0b18.png)
 
+Results display an average accuracy of 32% categorical and 28% on the validation data. What this means is the 28% of the time on a board that it was not trained on, it will choose the same move that a highly proficient human would make - at least in theory. 
+
 # Play
 
 At this point, you can play against the net itself!
