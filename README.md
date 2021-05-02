@@ -231,6 +231,8 @@ plt.show()
 ![image](https://user-images.githubusercontent.com/74555083/116799267-88776900-aabd-11eb-833b-43e4417c0b18.png)
 
 # Play
+
+At this point, you can play against the net itself!
 ```
 Play()
 ```
