@@ -9,7 +9,7 @@ The ultimate goal of this project was the design, construct and train a neural n
 
 It is necessary to install JupyterLab. Instructions and documentation are available here: https://jupyterlab.readthedocs.io/en/stable/
 
-#Necessary Downloads
+# Necessary Downloads
 
 The git page contains four necessary files that must be downloaded for the network to function (the driver, network, datasets, and pretrained weights, respectively):
   1. exp_drivers.ipynb
