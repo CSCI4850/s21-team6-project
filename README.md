@@ -87,41 +87,7 @@ Main()
 Boards = np.array(Boards)
 print(Moves[0])
 Moves = np.array(Moves)
-
-print(Boards.shape)
 ```
-40
-```
-print(Boards.shape)
-```
-(414124, 9, 9, 2)
-```
-# Example Position:
-printBoard(Boards[22], -1)
-printBoard(Boards[23], 1)
-```
-#  A B C D E F G H I
-1  . . . . . . . . .
-2  . . . . . . . . .
-3  . . O . @ . @ . .
-4  . . . O @ @ O @ .
-5  . . @ O @ O O @ .
-6  . . O . @ O . . .
-7  . . . . @ O . . .
-8  . . . @ O O . . .
-9  . . . . . . . . .
-
-#  A B C D E F G H I
-1  . . . . . . . . .
-2  . . . . . . . . .
-3  . . O . @ . @ . .
-4  . . . O @ @ O @ .
-5  . . @ O @ O O @ .
-6  . . O @ @ O . . .
-7  . . . . @ O . . .
-8  . . . @ O O . . .
-9  . . . . . . . . .
-
 ```
 X = Boards
 Y = keras.utils.to_categorical(Moves)
@@ -129,14 +95,7 @@ Y = keras.utils.to_categorical(Moves)
 training_samples = int(0.9 * X.shape[0])
 X_train, X_test = X[:training_samples], X[training_samples:] # Inputs
 Y_train, Y_test = Y[:training_samples], Y[training_samples:] # Outputs
-
-print(X.shape)
-print(Y.shape)
-print(Moves)
 ```
-(414124, 9, 9, 2)
-(414124, 82)
-[40 49 41 ... 75 18 36]
 
 ```
 model = keras.models.Sequential()
