@@ -18,9 +18,9 @@ The git page contains four necessary files that must be downloaded for the netwo
   4. mini_weights.h5
 
 *From this point it is necessary to:
-  1. Open the terminal
-  2. Navigate to the location of the go9.zip
-  3. Run the command:*
-   '''unzip go9.zip'''
+  1. *Open the terminal
+  2. *Navigate to the location of the go9.zip
+  3. *Run the command:
+   ```unzip go9.zip```
 
 
