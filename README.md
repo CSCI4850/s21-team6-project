@@ -115,7 +115,7 @@ model.compile(loss=keras.losses.CategoricalCrossentropy(), optimizer = keras.opt
 print(X_train.shape)
 
 model.summary()
-```
+
 (372711, 9, 9, 2)
 Model: "sequential_1"
 _________________________________________________________________
@@ -143,6 +143,7 @@ Total params: 192,465
 Trainable params: 192,465
 Non-trainable params: 0
 _________________________________________________________________
+```
 
 If you already have a .h5 weights file, then you can run this cell to load those weights.
 
